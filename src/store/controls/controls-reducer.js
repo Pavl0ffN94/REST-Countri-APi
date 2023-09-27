@@ -20,7 +20,7 @@ export const controlsReducer = (state = initialState, {type, payload}) => {
             }
         case CLEAR_CONTROLS:
             return initialState
-            
+             
         default:
             return state;
     }
